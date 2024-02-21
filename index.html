@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Uno</title>
+</head>
+<body>
+
+    <script>
+        var nickname = "Kei";
+        var heightin = 60;
+        var weightkg = 39;
+
+        var feet = Math.floor(heightin / 12);
+        var inches = heightin % 12;
+        var height = feet + "' " + inches + "\"";
+
+        var weightlbs = weightkg * 2.20462;
+
+        alert ("Name: " + nickname + "\nHeight: " + height + "\nWeight: " + weightlbs.toFixed(2) + " lbs");
+    </script>
+
+    <a href="num2.html">Numero Dos</a>
+
+</body>
+</html>

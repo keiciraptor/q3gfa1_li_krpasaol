@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Tres</title>
+</head>
+<body>
+    <script>
+        var question = "Do you agree in sharing your personal information?";
+
+        var nickname = "Kei"
+        var heightin = 60;
+        var weightkg = 39;
+
+        var feet = Math.floor(heightin / 12);
+        var inches = heightin % 12;
+        var height = feet + "' " + inches + "\"";
+
+        var weightlbs = weightkg * 2.20462;
+
+        if (confirm(question)==true)
+        {
+            alert("Name: " + nickname + "\nHeight: " + height + "\nWeight: " + weightlbs.toFixed(2) + " lbs");  
+        }
+
+        else{
+            alert("User does not wish to share his/her information.");
+        }
+    </script>
+</body>
+</html>
